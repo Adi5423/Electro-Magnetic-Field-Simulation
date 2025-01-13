@@ -1,0 +1,15 @@
+First Commit - 
+```
+// Field Initialization:
+
+// Sets the electric and magnetic fields to zero.
+// FDTD Updates:
+
+// Updates the magnetic fields (Hx, Hy) and the electric field (Ez) using simplified finite-difference equations.
+// Simulation Loop:
+
+// Iteratively updates fields and calls visualization (currently a placeholder).
+ 
+Message = Initialized FDTD simulation with zero electric and magnetic fields, and implemented simplified finite-difference equations for field updates.
+
+```

@@ -45,5 +45,5 @@ What meant to be implemented-
   | **Visualization**              | Begin with basic visual outputs (e.g., console/SDL).       | Not Started        |
 
 Electromagnetic Field Simulation uses the Finite-Difference Time-Domain (FDTD) method to simulate 2D electromagnetic fields. Key steps include setting up a simulation environment, understanding Maxwell's equations, designing a 2D grid, implementing boundary conditions, and updating electric and magnetic fields. The simulation will be visualized using ASCII art or graphing libraries like SDL2 or OpenGL.
-
 ```
+
