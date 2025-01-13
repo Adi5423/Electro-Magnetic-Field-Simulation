@@ -1,0 +1,49 @@
+What meant to be implemented- 
+```
+  Electromagnetic Field Simulation is an intellectually stimulating and rewarding project. Here's the starting plan and the **note-preparing chart** for this initial stage:
+  ---
+
+  ### **Electromagnetic Field Simulation - Initial Steps**
+
+  #### **1. Set Up the Environment**
+     - Install VSCode and configure the C/C++ development environment.
+     - Add extensions:
+       - **C/C++ by Microsoft** for IntelliSense and debugging.
+       - **Live Server** or equivalent for visualizing outputs dynamically (optional).
+     - Install required libraries:
+       - **Math Libraries**: Eigen for numerical computations.
+       - **Graphing Libraries**: SDL2 or OpenGL for field visualization.
+
+  #### **2. Understand the FDTD Method**
+     - Review Maxwell's equations in their differential form.
+     - Break them into update equations for electric and magnetic fields using the Yee grid.
+     - Plan a 2D grid layout for representing the simulation domain.
+
+  #### **3. Implement the Basic Framework**
+     - Create a C program skeleton:
+       - Set up the simulation grid.
+       - Initialize boundary conditions.
+       - Update fields using FDTD equations.
+
+  #### **4. Visualization Plan**
+     - Choose a method for visualizing 2D field strengths:
+       - Use ASCII art for basic testing.
+       - Transition to OpenGL/SDL2 for dynamic color-coded visualizations.
+
+  ---
+
+  ### **Note-Preparing Chart**
+
+  | **Step**                       | **Description**                                            | **Status**         |
+  |--------------------------------|------------------------------------------------------------|--------------------|
+  | **Environment Setup**          | Configure VSCode, install extensions, and set up libraries.| Not Started        |
+  | **Study Maxwell’s Equations**  | Review differential equations and discretize using FDTD.    | Not Started        |
+  | **Grid Design**                | Plan a 2D grid layout and Yee grid cell arrangement.        | Not Started        |
+  | **Boundary Conditions**        | Implement absorbing or periodic boundaries.                | Not Started        |
+  | **Field Update Logic**         | Code FDTD updates for E and H fields in C.                 | Not Started        |
+  | **Basic Testing**              | Test updates using a small simulation grid.                | Not Started        |
+  | **Visualization**              | Begin with basic visual outputs (e.g., console/SDL).       | Not Started        |
+
+Electromagnetic Field Simulation uses the Finite-Difference Time-Domain (FDTD) method to simulate 2D electromagnetic fields. Key steps include setting up a simulation environment, understanding Maxwell's equations, designing a 2D grid, implementing boundary conditions, and updating electric and magnetic fields. The simulation will be visualized using ASCII art or graphing libraries like SDL2 or OpenGL.
+
+```
